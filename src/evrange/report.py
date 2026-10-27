@@ -89,7 +89,7 @@ def fig_make_effects(me: pd.DataFrame, path: Path):
                 fmt="o", color=C[0], ecolor=C[0], elinewidth=1.4, capsize=0, ms=6, mec=SURF, mew=1.5)
     ax.set_yticks(y, [f"{m} (n={n})" for m, n in zip(me["make"], me["n"])])
     ax.set_xlabel("Predicted consumption, kWh per 100 miles (lower is better)")
-    ax.set_title("Manufacturer efficiency for the same reference vehicle (95% CI)", loc="left")
+    ax.set_title(f"Manufacturer efficiency for one reference vehicle: {_ref_text(me)} (95% CI)", loc="left", fontsize=10)
     _save(fig, path)
 
 
@@ -120,6 +120,15 @@ def _pct(x: float) -> str:
     return f"{x:+.0f}%"
 
 
+def _ref_text(me: pd.DataFrame) -> str:
+    ref = me.attrs.get("reference")
+    if not ref:
+        return "the reference vehicle"
+    drive = "all-wheel-drive" if ref["awd"] else "two-wheel-drive"
+    cls = {"SUV": "SUV", "Car": "car", "Pickup": "pickup", "Van": "van"}.get(ref["vehicle_class"], ref["vehicle_class"])
+    return f"{drive} {cls}, {np.exp(ref['log_motor_kw']):.0f} kW, model year {ref['year']}"
+
+
 def _next(lines: list[str]) -> int:
     """Number for the next item of the numbered findings list."""
     return sum(1 for line in lines if line.split(".", 1)[0].isdigit()) + 1
@@ -146,7 +155,12 @@ def findings_markdown(h: dict, ols_tab: pd.DataFrame, me: pd.DataFrame, cv: pd.D
         source = (f"Bigger batteries account for {share_battery:.0%} of the (log) range gain and lower "
                   f"consumption for the remaining {1 - share_battery:.0%}.")
     else:
-        source = "All of the range gain came from bigger batteries; consumption per mile did not improve."
+        source = "All of the range gain came from bigger batteries; average consumption per mile did not fall."
+    yr = "Model year (+1)"
+    if yr in ols_tab.index and ols_tab.loc[yr, "ci_high_pct"] < 0 and c > -5:
+        source += (f" This hides a real improvement: holding class, drivetrain and motor power fixed, consumption falls "
+                   f"{abs(ols_tab.loc[yr, 'effect_pct']):.1f}% per model year. The gap comes from the changing mix of vehicles "
+                   f"on offer, with more SUVs and pickups, more all-wheel drive and more power.")
     lines.append(
         f"1. The median EPA range went from {h['median_range_first']:.0f} miles in {h['first_year']} to "
         f"{h['median_range_last']:.0f} miles in {h['last_year']}. The geometric-mean range changed by "
@@ -177,8 +191,8 @@ def findings_markdown(h: dict, ols_tab: pd.DataFrame, me: pd.DataFrame, cv: pd.D
         best, worst = me.iloc[0], me.iloc[-1]
         n = _next(lines)
         lines.append(
-            f"{n}. For the same reference vehicle (two-wheel-drive car, median motor power, model year "
-            f"{h['year_max']}), predicted consumption ranges from {best['consumption']:.1f} kWh/100 mi ({best['make']}) "
+            f"{n}. For the same reference vehicle ({_ref_text(me)}), predicted consumption ranges from "
+            f"{best['consumption']:.1f} kWh/100 mi ({best['make']}) "
             f"to {worst['consumption']:.1f} kWh/100 mi ({worst['make']}).")
     n = _next(lines)
     base = cv.loc["Baseline: class median", "mae"]
