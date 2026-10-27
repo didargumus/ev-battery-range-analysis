@@ -2,11 +2,11 @@
 
 Data: 1,585 battery-electric vehicle configurations from 42 manufacturers, model years 2011 to 2027 (EPA file obtained 2026-10-27). Trend figures use model years with at least 10 configurations (2013 to 2027).
 
-1. The median EPA range went from 84 miles in 2013 to 311 miles in 2027. The geometric-mean range changed by +236%, energy per full charge by +243% and consumption by +2%. All of the range gain came from bigger batteries; consumption per mile did not improve.
+1. The median EPA range went from 84 miles in 2013 to 311 miles in 2027. The geometric-mean range changed by +236%, energy per full charge by +243% and consumption by +2%. All of the range gain came from bigger batteries; average consumption per mile did not fall. This hides a real improvement: holding class, drivetrain and motor power fixed, consumption falls 0.6% per model year. The gap comes from the changing mix of vehicles on offer, with more SUVs and pickups, more all-wheel drive and more power.
 2. The derived energy per charge passes a sanity check. For the 56 configurations whose battery size EPA lists, the stated capacity is a median 0.89 times the energy drawn from the wall, consistent with charging losses of about 11%.
 3. The share of SUVs and pickups among EV configurations went from 14% to 69%. In the regression below an SUV uses 6% more energy per mile than a car of the same model year and motor power, so the shift towards SUVs pushes average consumption up.
 4. EVs reverse the usual city/highway pattern. The median EV's highway efficiency is 0.89 times its city efficiency, against 1.37 for gasoline cars. 99.6% of gasoline cars but only 15% of EVs are more efficient on the highway.
-5. For the same reference vehicle (two-wheel-drive car, median motor power, model year 2027), predicted consumption ranges from 30.4 kWh/100 mi (Subaru) to 58.2 kWh/100 mi (GMC).
+5. For the same reference vehicle (all-wheel-drive SUV, 400 kW, model year 2027), predicted consumption ranges from 30.4 kWh/100 mi (Subaru) to 58.2 kWh/100 mi (GMC).
 6. On model lines the models had never seen, Gradient boosting had the lowest error (MAE 3.32 kWh/100 mi, 9.1% of the true value), 37% below the class-median baseline.
 
 #### Explanatory regression: log consumption (HC3 robust standard errors)
