@@ -22,7 +22,7 @@ Data: 1,585 battery-electric vehicle configurations from 42 manufacturers, model
 2. The derived energy per charge passes a sanity check. For the 56 configurations whose battery size EPA lists, the stated capacity is a median 0.89 times the energy drawn from the wall, consistent with charging losses of about 11%.
 3. The share of SUVs and pickups among EV configurations went from 14% to 69%. In the regression below an SUV uses 6% more energy per mile than a car of the same model year and motor power, so the shift towards SUVs pushes average consumption up.
 4. EVs reverse the usual city/highway pattern. The median EV's highway efficiency is 0.89 times its city efficiency, against 1.37 for gasoline cars. 99.6% of gasoline cars but only 15% of EVs are more efficient on the highway.
-5. For the same reference vehicle (two-wheel-drive car, median motor power, model year 2027), predicted consumption ranges from 24.1 kWh/100 mi (Subaru) to 46.1 kWh/100 mi (GMC).
+5. For the same reference vehicle (two-wheel-drive car, median motor power, model year 2027), predicted consumption ranges from 30.4 kWh/100 mi (Subaru) to 58.2 kWh/100 mi (GMC).
 6. On model lines the models had never seen, Gradient boosting had the lowest error (MAE 3.32 kWh/100 mi, 9.1% of the true value), 37% below the class-median baseline.
 
 #### Explanatory regression: log consumption (HC3 robust standard errors)

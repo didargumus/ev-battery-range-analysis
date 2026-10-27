@@ -6,7 +6,7 @@ Data: 1,585 battery-electric vehicle configurations from 42 manufacturers, model
 2. The derived energy per charge passes a sanity check. For the 56 configurations whose battery size EPA lists, the stated capacity is a median 0.89 times the energy drawn from the wall, consistent with charging losses of about 11%.
 3. The share of SUVs and pickups among EV configurations went from 14% to 69%. In the regression below an SUV uses 6% more energy per mile than a car of the same model year and motor power, so the shift towards SUVs pushes average consumption up.
 4. EVs reverse the usual city/highway pattern. The median EV's highway efficiency is 0.89 times its city efficiency, against 1.37 for gasoline cars. 99.6% of gasoline cars but only 15% of EVs are more efficient on the highway.
-5. For the same reference vehicle (two-wheel-drive car, median motor power, model year 2027), predicted consumption ranges from 24.1 kWh/100 mi (Subaru) to 46.1 kWh/100 mi (GMC).
+5. For the same reference vehicle (two-wheel-drive car, median motor power, model year 2027), predicted consumption ranges from 30.4 kWh/100 mi (Subaru) to 58.2 kWh/100 mi (GMC).
 6. On model lines the models had never seen, Gradient boosting had the lowest error (MAE 3.32 kWh/100 mi, 9.1% of the true value), 37% below the class-median baseline.
 
 #### Explanatory regression: log consumption (HC3 robust standard errors)
@@ -74,40 +74,40 @@ n = 1530, R² = 0.34
 
 | make          |   consumption |   ci_low |   ci_high |   n |
 |:--------------|--------------:|---------:|----------:|----:|
-| Subaru        |         24.08 |    23.29 |     24.89 |  18 |
-| Lucid         |         24.46 |    23.81 |     25.14 |  65 |
-| Tesla         |         25.48 |    24.74 |     26.24 | 187 |
-| Toyota        |         25.55 |    24.48 |     26.67 |  34 |
-| Lexus         |         26.39 |    25.48 |     27.33 |  20 |
-| Volkswagen    |         27.29 |    26.51 |     28.08 |  34 |
-| Hyundai       |         27.62 |    26.55 |     28.74 |  61 |
-| Mitsubishi    |         27.67 |    26.27 |     29.15 |   5 |
-| Honda         |         27.83 |    26.86 |     28.83 |  14 |
-| Volvo         |         28.74 |    27.83 |     29.68 |  45 |
-| Fiat          |         28.77 |    27.38 |     30.24 |  13 |
-| MINI          |         29.05 |    28.21 |     29.92 |  11 |
-| Genesis       |         29.1  |    28.19 |     30.04 |  26 |
-| Kia           |         29.27 |    28.24 |     30.33 |  48 |
-| Nissan        |         29.8  |    29.04 |     30.59 |  46 |
-| Ford          |         29.95 |    29.06 |     30.87 |  63 |
-| Chevrolet     |         30.15 |    29.08 |     31.26 |  52 |
-| smart         |         30.41 |    28.87 |     32.03 |  16 |
-| Cadillac      |         30.75 |    29.79 |     31.75 |  37 |
-| Jeep          |         30.77 |    28.07 |     33.74 |   7 |
-| Polestar      |         30.84 |    30.05 |     31.64 |  34 |
-| BMW           |         31.27 |    30.61 |     31.94 | 146 |
-| Audi          |         31.5  |    30.37 |     32.67 |  76 |
-| Acura         |         31.68 |    30.09 |     33.35 |   6 |
-| Mercedes-Benz |         32.72 |    31.7  |     33.76 |  77 |
-| Rivian        |         32.91 |    32    |     33.86 | 187 |
-| Jaguar        |         32.94 |    31.18 |     34.8  |   5 |
-| Dodge         |         33.67 |    32.11 |     35.3  |  22 |
-| Porsche       |         34.31 |    33.4  |     35.25 |  95 |
-| Maserati      |         35.03 |    33.28 |     36.88 |  10 |
-| Rolls-Royce   |         37.61 |    36.44 |     38.81 |  16 |
-| Vinfast       |         37.8  |    36.23 |     39.44 |  13 |
-| BYD           |         41.67 |    39.32 |     44.17 |   7 |
-| GMC           |         46.15 |    43.05 |     49.47 |  20 |
+| Subaru        |         30.36 |    29.57 |     31.18 |  18 |
+| Lucid         |         30.85 |    30.04 |     31.69 |  65 |
+| Tesla         |         32.13 |    31.36 |     32.92 | 187 |
+| Toyota        |         32.23 |    30.95 |     33.55 |  34 |
+| Lexus         |         33.28 |    32.25 |     34.35 |  20 |
+| Volkswagen    |         34.41 |    33.58 |     35.27 |  34 |
+| Hyundai       |         34.84 |    33.55 |     36.17 |  61 |
+| Mitsubishi    |         34.9  |    33.16 |     36.73 |   5 |
+| Honda         |         35.09 |    34    |     36.23 |  14 |
+| Volvo         |         36.25 |    35.29 |     37.24 |  45 |
+| Fiat          |         36.29 |    34.5  |     38.17 |  13 |
+| MINI          |         36.64 |    35.67 |     37.63 |  11 |
+| Genesis       |         36.7  |    35.76 |     37.67 |  26 |
+| Kia           |         36.91 |    35.69 |     38.17 |  48 |
+| Nissan        |         37.59 |    36.63 |     38.57 |  46 |
+| Ford          |         37.77 |    36.79 |     38.78 |  63 |
+| Chevrolet     |         38.03 |    36.75 |     39.35 |  52 |
+| smart         |         38.35 |    36.42 |     40.38 |  16 |
+| Cadillac      |         38.78 |    37.75 |     39.84 |  37 |
+| Jeep          |         38.81 |    35.48 |     42.44 |   7 |
+| Polestar      |         38.89 |    37.99 |     39.82 |  34 |
+| BMW           |         39.43 |    38.65 |     40.23 | 146 |
+| Audi          |         39.72 |    38.39 |     41.1  |  76 |
+| Acura         |         39.95 |    38.07 |     41.93 |   6 |
+| Mercedes-Benz |         41.26 |    40.05 |     42.51 |  77 |
+| Rivian        |         41.51 |    40.66 |     42.38 | 187 |
+| Jaguar        |         41.54 |    39.53 |     43.66 |   5 |
+| Dodge         |         42.46 |    40.48 |     44.53 |  22 |
+| Porsche       |         43.27 |    42.04 |     44.54 |  95 |
+| Maserati      |         44.18 |    42.03 |     46.44 |  10 |
+| Rolls-Royce   |         47.43 |    45.93 |     48.98 |  16 |
+| Vinfast       |         47.68 |    45.76 |     49.67 |  13 |
+| BYD           |         52.56 |    49.78 |     55.48 |   7 |
+| GMC           |         58.2  |    54.46 |     62.19 |  20 |
 
 ## Permutation importance
 
