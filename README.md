@@ -16,33 +16,35 @@ The data is downloaded from [fueleconomy.gov](https://www.fueleconomy.gov/feg/do
 The text between the markers below is written by `scripts/run_analysis.py` from the numbers, so it updates with the data.
 
 <!-- results:start -->
-Data: 186 battery-electric vehicle configurations from 20 manufacturers, model years 2011 to 2020 (EPA file obtained October 2019, via the TidyTuesday mirror; replaced by the latest file on the first refresh). Trend figures use model years with at least 10 configurations (2013 to 2019).
+Data: 1,585 battery-electric vehicle configurations from 42 manufacturers, model years 2011 to 2027 (EPA file obtained 2026-10-27). Trend figures use model years with at least 10 configurations (2013 to 2027).
 
-1. The median EPA range went from 84 miles in 2013 to 238 miles in 2019. The geometric-mean range changed by +121%, energy per full charge by +105% and consumption by -7%. Bigger batteries account for 90% of the (log) range gain and lower consumption for the remaining 10%.
+1. The median EPA range went from 84 miles in 2013 to 311 miles in 2027. The geometric-mean range changed by +236%, energy per full charge by +243% and consumption by +2%. All of the range gain came from bigger batteries; consumption per mile did not improve.
 2. The derived energy per charge passes a sanity check. For the 56 configurations whose battery size EPA lists, the stated capacity is a median 0.89 times the energy drawn from the wall, consistent with charging losses of about 11%.
-3. The share of SUVs and pickups among EV configurations went from 14% to 25%. In the regression below an SUV uses 28% more energy per mile than a car of the same model year and motor power, so the shift towards SUVs pushes average consumption up.
-4. EVs reverse the usual city/highway pattern. The median EV's highway efficiency is 0.90 times its city efficiency, against 1.38 for gasoline cars. 99.9% of gasoline cars but only 34% of EVs are more efficient on the highway.
-5. For the same reference vehicle (two-wheel-drive car, median motor power, model year 2020), predicted consumption ranges from 24.7 kWh/100 mi (Hyundai) to 43.1 kWh/100 mi (BYD).
-6. On model lines the models had never seen, OLS (log scale) had the lowest error (MAE 4.33 kWh/100 mi, 12.1% of the true value), 10% below the class-median baseline.
+3. The share of SUVs and pickups among EV configurations went from 14% to 69%. In the regression below an SUV uses 6% more energy per mile than a car of the same model year and motor power, so the shift towards SUVs pushes average consumption up.
+4. EVs reverse the usual city/highway pattern. The median EV's highway efficiency is 0.89 times its city efficiency, against 1.37 for gasoline cars. 99.6% of gasoline cars but only 15% of EVs are more efficient on the highway.
+5. For the same reference vehicle (two-wheel-drive car, median motor power, model year 2027), predicted consumption ranges from 24.1 kWh/100 mi (Subaru) to 46.1 kWh/100 mi (GMC).
+6. On model lines the models had never seen, Gradient boosting had the lowest error (MAE 3.32 kWh/100 mi, 9.1% of the true value), 37% below the class-median baseline.
 
 #### Explanatory regression: log consumption (HC3 robust standard errors)
 
-n = 185, R² = 0.47
+n = 1530, R² = 0.34
 
 | Term | Effect on consumption | 95% CI | p-value |
 |---|---:|---:|---:|
-| Class: SUV (vs car) | +28.1% | [+20.7%, +35.9%] | 0.000 |
-| Model year (+1) | -2.9% | [-3.8%, -2.0%] | 0.000 |
-| All-wheel drive | +1.6% | [-4.8%, +8.3%] | 0.637 |
-| Motor power (+10%) | +0.2% | [-0.2%, +0.6%] | 0.348 |
+| Class: Pickup (vs car) | +29.5% | [+26.1%, +33.0%] | 0.000 |
+| Class: SUV (vs car) | +6.2% | [+4.2%, +8.1%] | 0.000 |
+| Class: Van (vs car) | +24.8% | [+4.0%, +49.7%] | 0.017 |
+| Model year (+1) | -0.6% | [-0.9%, -0.3%] | 0.000 |
+| All-wheel drive | +16.3% | [+13.8%, +18.8%] | 0.000 |
+| Motor power (+10%) | +0.3% | [+0.1%, +0.4%] | 0.004 |
 
 #### Predictive models: grouped 5-fold cross-validation by model line
 
 | Model | MAE (kWh/100 mi) | MAPE | R² |
 |---|---:|---:|---:|
-| Baseline: class median | 4.82 | 13.6% | -0.12 |
-| OLS (log scale) | 4.33 | 12.1% | 0.05 |
-| Gradient boosting | 4.84 | 13.4% | -0.24 |
+| Baseline: class median | 5.28 | 14.1% | 0.16 |
+| OLS (log scale) | 3.50 | 9.3% | 0.61 |
+| Gradient boosting | 3.32 | 9.1% | 0.64 |
 <!-- results:end -->
 
 ## Method
