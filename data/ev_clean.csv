@@ -1,0 +1,187 @@
+id,year,make,model,family,vehicle_class,VClass,drive,awd,range,consumption,energy_kwh,motor_kw,battery_kwh_stated,city08,highway08,hwy_city_ratio,charge240
+32276,2011,BMW,Active E,bmw | active e,Car,Subcompact Cars,Rear-Wheel Drive,False,94,33.0,31.02,125.0,,107,96,0.897196261682243,5.0
+30979,2011,Nissan,Leaf,nissan | leaf,Car,Midsize Cars,Front-Wheel Drive,False,73,34.0,24.82,80.0,,106,92,0.8679245283018868,7.0
+31064,2011,smart,fortwo electric drive cabriolet,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,63,39.0,24.57,30.0,,94,79,0.8404255319148937,8.0
+31065,2011,smart,fortwo electric drive coupe,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,63,39.0,24.57,30.0,,94,79,0.8404255319148937,8.0
+31893,2012,Azure Dynamics,Transit Connect Electric Van,azure dynamics | transit connect,Car,Special Purpose Vehicle 2WD,Front-Wheel Drive,False,56,54.0,30.24,52.0,,62,62,1.0,8.0
+31894,2012,Azure Dynamics,Transit Connect Electric Wagon,azure dynamics | transit connect,Car,Special Purpose Vehicle 2WD,Front-Wheel Drive,False,56,54.0,30.24,52.0,,62,62,1.0,8.0
+33383,2012,BYD,e6,byd | e6,SUV,Sport Utility Vehicle - 2WD,Front-Wheel Drive,False,122,54.0,65.88,75.0,,60,64,1.0666666666666667,6.0
+32277,2012,CODA Automotive,CODA,coda automotive | coda,Car,Subcompact Cars,Front-Wheel Drive,False,88,46.0,40.48,100.0,,77,68,0.8831168831168831,6.0
+32278,2012,Ford,Focus Electric,ford | focus,Car,Compact Cars,Front-Wheel Drive,False,76,32.0,24.32,107.0,,110,99,0.9,4.0
+31673,2012,Mitsubishi,i-MiEV,mitsubishi | i-miev,Car,Subcompact Cars,Rear-Wheel Drive,False,62,30.0,18.6,49.0,,126,99,0.7857142857142857,7.0
+32154,2012,Nissan,Leaf,nissan | leaf,Car,Midsize Cars,Front-Wheel Drive,False,73,34.0,24.82,80.0,,106,92,0.8679245283018868,7.0
+32557,2012,Tesla,Model S,tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,265,38.0,100.7,260.0,,88,90,1.0227272727272727,12.0
+33308,2012,Toyota,RAV4 EV,toyota | rav4,SUV,Sport Utility Vehicle - 2WD,Front-Wheel Drive,False,103,44.0,45.32,115.0,,78,74,0.9487179487179487,6.0
+34860,2013,BYD,e6,byd | e6,SUV,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,False,127,54.0,68.58,75.0,,61,65,1.0655737704918034,6.0
+33337,2013,CODA Automotive,CODA,coda automotive | coda,Car,Subcompact Cars,Front-Wheel Drive,False,88,46.0,40.48,100.0,,77,68,0.8831168831168831,6.0
+33396,2013,Fiat,500e,fiat | 500e,Car,Minicompact Cars,Front-Wheel Drive,False,87,29.0,25.23,82.0,,122,108,0.8852459016393442,4.0
+33024,2013,Ford,Focus Electric,ford | focus,Car,Compact Cars,Front-Wheel Drive,False,76,32.0,24.32,107.0,,110,99,0.9,4.0
+33265,2013,Honda,Fit EV,honda | fit,Car,Small Station Wagons,Front-Wheel Drive,False,82,29.0,23.78,92.0,,132,105,0.7954545454545454,4.0
+33358,2013,Mitsubishi,i-MiEV,mitsubishi | i-miev,Car,Subcompact Cars,Rear-Wheel Drive,False,62,30.0,18.6,49.0,,126,99,0.7857142857142857,7.0
+33558,2013,Nissan,Leaf,nissan | leaf,Car,Midsize Cars,Front-Wheel Drive,False,75,29.0,21.75,80.0,,129,102,0.7906976744186046,7.0
+33307,2013,Scion,iQ EV,scion | iq,Car,Minicompact Cars,Front-Wheel Drive,False,38,28.0,10.64,,,138,105,0.7608695652173914,4.0
+33612,2013,Tesla,Model S (40 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,139,36.0,50.04,225.0,,93,96,1.032258064516129,6.0
+33367,2013,Tesla,Model S (60 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,208,35.0,72.8,225.0,,94,97,1.0319148936170213,10.0
+33368,2013,Tesla,Model S (85 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,265,38.0,100.7,270.0,,88,90,1.0227272727272727,12.0
+33397,2013,Toyota,RAV4 EV,toyota | rav4,SUV,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,False,103,44.0,45.32,115.0,,78,74,0.9487179487179487,6.0
+33305,2013,smart,fortwo electric drive convertible,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,68,32.0,21.76,55.0,,122,93,0.7622950819672131,6.0
+33306,2013,smart,fortwo electric drive coupe,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,68,32.0,21.76,55.0,,122,93,0.7622950819672131,6.0
+35207,2014,BMW,i3 BEV,bmw | i3 bev,Car,Subcompact Cars,Rear-Wheel Drive,False,81,27.0,21.87,125.0,,137,111,0.8102189781021898,4.0
+34859,2014,BYD,e6,byd | e6,SUV,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,False,127,54.0,68.58,75.0,,61,65,1.0655737704918034,6.0
+33640,2014,Chevrolet,Spark EV,chevrolet | spark,Car,Subcompact Cars,Front-Wheel Drive,False,82,28.0,22.96,104.0,,128,109,0.8515625,7.0
+34392,2014,Fiat,500e,fiat | 500e,Car,Minicompact Cars,Front-Wheel Drive,False,87,29.0,25.23,82.0,,122,108,0.8852459016393442,4.0
+34130,2014,Ford,Focus Electric,ford | focus,Car,Compact Cars,Front-Wheel Drive,False,76,32.0,24.32,107.0,,110,99,0.9,3.6
+33905,2014,Honda,Fit EV,honda | fit,Car,Small Station Wagons,Front-Wheel Drive,False,82,29.0,23.78,92.0,,132,105,0.7954545454545454,4.0
+35247,2014,Mercedes-Benz,B-Class Electric Drive,mercedes-benz | b-class drive,Car,Midsize Cars,Front-Wheel Drive,False,87,40.0,34.8,132.0,,85,83,0.9764705882352941,3.5
+34901,2014,Mitsubishi,i-MiEV,mitsubishi | i-miev,Car,Subcompact Cars,Rear-Wheel Drive,False,62,30.0,18.6,49.0,,126,99,0.7857142857142857,7.0
+34699,2014,Nissan,Leaf,nissan | leaf,Car,Midsize Cars,Front-Wheel Drive,False,84,30.0,25.2,80.0,,126,101,0.8015873015873016,8.0
+34776,2014,Tesla,Model S (60 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,208,35.0,72.8,225.0,60.0,94,97,1.0319148936170213,10.0
+34775,2014,Tesla,Model S (85 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,265,38.0,100.7,270.0,85.0,88,90,1.0227272727272727,12.0
+35994,2014,Tesla,Model S AWD (85 kW-hr battery pack),tesla | model s,Car,Large Cars,4-Wheel Drive,True,242,38.0,91.96,530.0,85.0,86,94,1.0930232558139534,12.0
+34425,2014,Toyota,RAV4 EV,toyota | rav4,SUV,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,False,103,44.0,45.32,115.0,,78,74,0.9487179487179487,6.0
+34393,2014,smart,fortwo electric drive convertible,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,68,32.0,21.76,55.0,,122,93,0.7622950819672131,6.0
+34394,2014,smart,fortwo electric drive coupe,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,68,32.0,21.76,55.0,,122,93,0.7622950819672131,6.0
+36016,2015,BMW,i3 BEV,bmw | i3 bev,Car,Subcompact Cars,Rear-Wheel Drive,False,81,27.0,21.87,125.0,,137,111,0.8102189781021898,4.0
+35120,2015,Chevrolet,Spark EV,chevrolet | spark,Car,Subcompact Cars,Front-Wheel Drive,False,82,28.3449,23.242817999999996,104.0,,128,109,0.8515625,7.0
+35206,2015,Fiat,500e,fiat | 500e,Car,Minicompact Cars,Front-Wheel Drive,False,87,29.1733,25.380771,82.0,,122,108,0.8852459016393442,4.0
+35970,2015,Ford,Focus Electric,ford | focus,Car,Compact Cars,Front-Wheel Drive,False,76,32.0,24.32,107.0,,110,99,0.9,3.6
+35601,2015,Kia,Soul Electric,kia | soul,Car,Small Station Wagons,Front-Wheel Drive,False,93,31.9856,29.746608000000002,81.0,,120,92,0.7666666666666667,4.0
+35960,2015,Mercedes-Benz,B-Class Electric Drive,mercedes-benz | b-class drive,Car,Midsize Cars,Front-Wheel Drive,False,87,40.0,34.8,132.0,,85,82,0.9647058823529412,3.5
+34918,2015,Nissan,Leaf,nissan | leaf,Car,Midsize Cars,Front-Wheel Drive,False,84,29.6225,24.8829,80.0,,126,101,0.8015873015873016,8.0
+36017,2015,Tesla,Model S (60 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,208,35.0,72.8,225.0,60.0,94,97,1.0319148936170213,10.0
+35980,2015,Tesla,Model S (85 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,265,38.0,100.7,270.0,85.0,88,90,1.0227272727272727,12.0
+37236,2015,Tesla,Model S (90 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,265,38.0,100.7,285.0,90.0,88,90,1.0227272727272727,12.0
+36126,2015,Tesla,Model S AWD - 70D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,240,33.0,79.2,280.0,70.0,101,102,1.00990099009901,12.0
+36009,2015,Tesla,Model S AWD - 85D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,270,34.0,91.8,280.0,85.0,95,106,1.1157894736842104,12.0
+36786,2015,Tesla,Model S AWD - 90D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,270,34.0,91.8,280.0,90.0,95,106,1.1157894736842104,12.0
+36008,2015,Tesla,Model S AWD - P85D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,253,36.0,91.08,514.0,85.0,89,98,1.101123595505618,12.0
+36787,2015,Tesla,Model S AWD - P90D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,253,36.0,91.08,514.0,90.0,89,98,1.101123595505618,12.0
+35849,2015,Volkswagen,e-Golf,volkswagen | e-golf,Car,Compact Cars,Front-Wheel Drive,False,83,29.1683,24.209688999999997,85.0,,126,105,0.8333333333333334,4.0
+35858,2015,smart,fortwo electric drive convertible,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,68,31.5042,21.422856000000003,55.0,,122,93,0.7622950819672131,6.0
+35859,2015,smart,fortwo electric drive coupe,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,68,31.5042,21.422856000000003,55.0,,122,93,0.7622950819672131,6.0
+37216,2016,BMW,i3 BEV,bmw | i3 bev,Car,Subcompact Cars,Rear-Wheel Drive,False,81,27.0,21.87,125.0,,137,111,0.8102189781021898,4.0
+37800,2016,BYD,e6,byd | e6,SUV,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,False,187,47.0,87.89,75.0,,73,71,0.9726027397260274,5.0
+36996,2016,Chevrolet,Spark EV,chevrolet | spark,Car,Subcompact Cars,Front-Wheel Drive,False,82,28.3449,23.242817999999996,105.0,,128,109,0.8515625,7.0
+37156,2016,Fiat,500e,fiat | 500e,Car,Minicompact Cars,Front-Wheel Drive,False,84,29.9767,25.180428000000003,82.0,,121,103,0.8512396694214877,4.0
+36978,2016,Ford,Focus Electric,ford | focus,Car,Compact Cars,Front-Wheel Drive,False,76,32.0,24.32,107.0,,110,99,0.9,3.6
+36553,2016,Kia,Soul Electric,kia | soul,Car,Small Station Wagons,Front-Wheel Drive,False,93,31.9856,29.746608000000002,81.0,,120,92,0.7666666666666667,4.0
+36997,2016,Mercedes-Benz,B250e,mercedes-benz | b250e,Car,Midsize Cars,Front-Wheel Drive,False,87,40.2262,34.996794,132.0,,85,82,0.9647058823529412,3.5
+36023,2016,Mitsubishi,i-MiEV,mitsubishi | i-miev,Car,Subcompact Cars,Rear-Wheel Drive,False,62,30.0,18.6,49.0,,126,99,0.7857142857142857,7.0
+37066,2016,Nissan,Leaf (24 kW-hr battery pack),nissan | leaf,Car,Midsize Cars,Front-Wheel Drive,False,84,29.6496,24.905664,80.0,,126,101,0.8015873015873016,8.0
+37067,2016,Nissan,Leaf (30 kW-hr battery pack),nissan | leaf,Car,Midsize Cars,Front-Wheel Drive,False,107,29.9829,32.081703000000005,80.0,,124,101,0.8145161290322581,6.0
+38170,2016,Tesla,Model S (60 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,210,34.0,71.4,285.0,60.0,98,101,1.030612244897959,10.0
+37233,2016,Tesla,Model S (70 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,234,38.0,88.92,285.0,70.0,88,90,1.0227272727272727,10.0
+37421,2016,Tesla,Model S (75 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,249,34.0,84.66,285.0,75.0,97,100,1.0309278350515463,12.0
+37234,2016,Tesla,Model S (85 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,265,38.0,100.7,285.0,85.0,88,90,1.0227272727272727,12.0
+37235,2016,Tesla,Model S (90 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,265,38.0,100.7,285.0,90.0,88,90,1.0227272727272727,12.0
+38171,2016,Tesla,Model S AWD - 60D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,218,32.0,69.76,386.0,60.0,101,107,1.0594059405940595,12.0
+37238,2016,Tesla,Model S AWD - 70D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,240,33.0,79.2,386.0,70.0,101,102,1.00990099009901,12.0
+37422,2016,Tesla,Model S AWD - 75D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,259,33.0,85.47,386.0,75.0,102,105,1.0294117647058822,12.0
+37239,2016,Tesla,Model S AWD - 85D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,270,34.0,91.8,386.0,85.0,95,106,1.1157894736842104,12.0
+37240,2016,Tesla,Model S AWD - 90D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,294,33.0,97.02,386.0,90.0,101,107,1.0594059405940595,12.0
+38172,2016,Tesla,Model S AWD - P100D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,315,35.0,110.25,568.0,100.0,92,105,1.141304347826087,12.0
+37241,2016,Tesla,Model S AWD - P85D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,253,36.0,91.08,568.0,85.0,89,98,1.101123595505618,12.0
+37242,2016,Tesla,Model S AWD - P90D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,270,35.0,94.5,568.0,90.0,91,100,1.098901098901099,12.0
+38173,2016,Tesla,Model X AWD - 60D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,200,36.0,72.0,386.0,60.0,91,94,1.032967032967033,12.0
+37423,2016,Tesla,Model X AWD - 75D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,238,36.0,85.68,386.0,75.0,91,95,1.043956043956044,12.0
+36979,2016,Tesla,Model X AWD - 90D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,257,37.0,95.09,386.0,90.0,90,94,1.0444444444444445,12.0
+38500,2016,Tesla,Model X AWD - P100D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,289,39.0,112.71,568.0,100.0,81,92,1.1358024691358024,12.0
+36980,2016,Tesla,Model X AWD - P90D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,250,38.0,95.0,568.0,90.0,89,90,1.0112359550561798,12.0
+36834,2016,Volkswagen,e-Golf,volkswagen | e-golf,Car,Compact Cars,Front-Wheel Drive,False,83,29.1765,24.216495,85.0,,126,105,0.8333333333333334,3.7
+36860,2016,smart,fortwo electric drive convertible,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,68,31.5042,21.422856000000003,55.0,,122,93,0.7622950819672131,6.0
+36861,2016,smart,fortwo electric drive coupe,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,68,31.5042,21.422856000000003,55.0,,122,93,0.7622950819672131,6.0
+38000,2017,BMW,i3 BEV (60  Amp-hour battery),bmw | i3 bev,Car,Subcompact Cars,Rear-Wheel Drive,False,81,27.0,21.87,125.0,,137,111,0.8102189781021898,4.0
+38001,2017,BMW,i3 BEV (94 Amp-hour battery),bmw | i3 bev,Car,Subcompact Cars,Rear-Wheel Drive,False,114,29.0,33.06,125.0,,129,106,0.8217054263565892,5.0
+38591,2017,BYD,e6,byd | e6,SUV,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,False,187,47.0,87.89,75.0,,73,71,0.9726027397260274,5.0
+38187,2017,Chevrolet,Bolt EV,chevrolet | bolt,Car,Small Station Wagons,Front-Wheel Drive,False,238,28.3007,67.355666,150.0,,128,110,0.859375,9.3
+37798,2017,Fiat,500e,fiat | 500e,Car,Minicompact Cars,Front-Wheel Drive,False,84,29.9767,25.180428000000003,82.0,,121,103,0.8512396694214877,4.0
+38505,2017,Ford,Focus Electric,ford | focus,Car,Compact Cars,Front-Wheel Drive,False,115,31.0,35.65,107.0,,118,96,0.8135593220338984,5.5
+39191,2017,Honda,Clarity EV,honda | clarity,Car,Midsize Cars,Front-Wheel Drive,False,89,30.0,26.7,120.0,,126,103,0.8174603174603174,4.0
+38431,2017,Hyundai,Ioniq Electric,hyundai | ioniq,Car,Midsize Cars,Front-Wheel Drive,False,124,25.0,31.0,88.0,,150,122,0.8133333333333334,4.0
+38168,2017,Kia,Soul Electric,kia | soul,Car,Small Station Wagons,Front-Wheel Drive,False,93,31.9856,29.746608000000002,81.0,,120,92,0.7666666666666667,4.0
+38002,2017,Mercedes-Benz,B250e,mercedes-benz | b250e,Car,Midsize Cars,Front-Wheel Drive,False,87,40.2262,34.996794,132.0,,85,82,0.9647058823529412,3.5
+37293,2017,Mitsubishi,i-MiEV,mitsubishi | i-miev,Car,Subcompact Cars,Rear-Wheel Drive,False,59,30.0,17.7,49.0,,121,102,0.8429752066115702,7.0
+38428,2017,Nissan,Leaf,nissan | leaf,Car,Midsize Cars,Front-Wheel Drive,False,107,29.9887,32.087908999999996,80.0,,124,101,0.8145161290322581,6.0
+39769,2017,Tesla,Model 3 Long Range,tesla | model 3,Car,Midsize Cars,Rear-Wheel Drive,False,310,26.826,83.16059999999999,192.0,,131,120,0.916030534351145,12.0
+38557,2017,Tesla,Model S (60 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,210,34.0,71.4,285.0,60.0,98,101,1.030612244897959,10.0
+38558,2017,Tesla,Model S (75 kW-hr battery pack),tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,249,34.0,84.66,285.0,75.0,97,100,1.0309278350515463,12.0
+38640,2017,Tesla,Model S AWD - 100D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,335,33.0,110.55,386.0,100.0,101,102,1.00990099009901,12.0
+38523,2017,Tesla,Model S AWD - 60D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,218,32.0,69.76,386.0,60.0,101,107,1.0594059405940595,12.0
+38524,2017,Tesla,Model S AWD - 75D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,259,33.0,85.47,386.0,75.0,102,105,1.0294117647058822,12.0
+38569,2017,Tesla,Model S AWD - 90D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,294,32.0,94.08,386.0,90.0,102,107,1.0490196078431373,12.0
+38525,2017,Tesla,Model S AWD - P100D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,315,35.0,110.25,568.0,100.0,92,105,1.141304347826087,12.0
+38537,2017,Tesla,Model S AWD - P90D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,270,35.0,94.5,568.0,90.0,92,100,1.0869565217391304,12.0
+39831,2017,Tesla,Model X AWD - 100D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,295,38.6651,114.062045,386.0,100.0,86,89,1.0348837209302326,12.0
+38526,2017,Tesla,Model X AWD - 60D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,200,36.0,72.0,386.0,60.0,91,94,1.032967032967033,12.0
+38527,2017,Tesla,Model X AWD - 75D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,238,36.0,85.68,386.0,75.0,91,95,1.043956043956044,12.0
+38528,2017,Tesla,Model X AWD - 90D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,257,37.0,95.09,386.0,90.0,90,94,1.0444444444444445,12.0
+38530,2017,Tesla,Model X AWD - P100D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,289,39.0,112.71,568.0,100.0,81,92,1.1358024691358024,12.0
+38529,2017,Tesla,Model X AWD - P90D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,250,38.0,95.0,568.0,90.0,89,90,1.0112359550561798,12.0
+38549,2017,Volkswagen,e-Golf,volkswagen | e-golf,Car,Compact Cars,Front-Wheel Drive,False,125,28.4186,35.523250000000004,100.0,,126,111,0.8809523809523809,5.3
+39603,2017,smart,fortwo electric drive convertible,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,57,33.0,18.81,60.0,,112,91,0.8125,3.0
+39192,2017,smart,fortwo electric drive coupe,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,58,31.0,17.98,60.0,,124,94,0.7580645161290323,3.0
+39854,2018,BMW,i3 (94Ah),bmw | i3,Car,Subcompact Cars,Rear-Wheel Drive,False,114,28.6352,32.644128,125.0,,129,106,0.8217054263565892,5.0
+39855,2018,BMW,i3s (94Ah),bmw | i3s,Car,Subcompact Cars,Rear-Wheel Drive,False,107,29.9713,32.069291,125.0,,126,99,0.7857142857142857,5.0
+39880,2018,BYD,e6,byd | e6,SUV,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,False,187,46.6265,87.19155500000001,75.0,,73,71,0.9726027397260274,5.0
+39786,2018,Chevrolet,Bolt EV,chevrolet | bolt,Car,Small Station Wagons,Front-Wheel Drive,False,238,28.3007,67.355666,150.0,,128,110,0.859375,9.3
+39959,2018,Fiat,500e,fiat | 500e,Car,Minicompact Cars,Front-Wheel Drive,False,84,29.9767,25.180428000000003,82.0,,121,103,0.8512396694214877,4.0
+39640,2018,Ford,Focus Electric,ford | focus,Car,Compact Cars,Front-Wheel Drive,False,115,31.4904,36.21396,107.0,,118,96,0.8135593220338984,5.5
+40044,2018,Honda,Clarity EV,honda | clarity,Car,Midsize Cars,Front-Wheel Drive,False,89,29.5354,26.286506,120.0,,126,103,0.8174603174603174,4.0
+39641,2018,Hyundai,Ioniq Electric,hyundai | ioniq,Car,Midsize Cars,Front-Wheel Drive,False,124,25.0,31.0,88.0,,150,122,0.8133333333333334,4.0
+39322,2018,Kia,Soul Electric,kia | soul,Car,Small Station Wagons,Front-Wheel Drive,False,111,31.2261,34.660970999999996,81.0,,124,93,0.75,5.0
+39860,2018,Nissan,Leaf,nissan | leaf,Car,Midsize Cars,Front-Wheel Drive,False,151,30.0011,45.301661,110.0,,125,100,0.8,8.0
+39836,2018,Tesla,Model 3 Long Range,tesla | model 3,Car,Midsize Cars,Rear-Wheel Drive,False,310,25.8779,80.22149,202.0,,136,123,0.9044117647058824,10.0
+40385,2018,Tesla,Model 3 Long Range  AWD,tesla | model 3,Car,Midsize Cars,All-Wheel Drive,True,310,28.9462,89.73322,335.0,,120,112,0.9333333333333333,10.0
+40386,2018,Tesla,Model 3 Long Range  AWD Performance,tesla | model 3,Car,Midsize Cars,All-Wheel Drive,True,310,28.9462,89.73322,349.0,,120,112,0.9333333333333333,10.0
+41056,2018,Tesla,Model 3 Mid Range,tesla | model 3,Car,Midsize Cars,Rear-Wheel Drive,False,260,27.4857,71.46282000000001,202.0,,128,117,0.9140625,10.0
+39839,2018,Tesla,Model S 100D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,335,33.196,111.2066,386.0,100.0,101,102,1.00990099009901,12.0
+39838,2018,Tesla,Model S 75D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,259,32.6174,84.479066,386.0,75.0,102,105,1.0294117647058822,12.0
+39837,2018,Tesla,Model S 75kWh,tesla | model s,Car,Large Cars,Rear-Wheel Drive,False,249,34.2499,85.282251,270.0,75.0,97,100,1.0309278350515463,10.0
+39840,2018,Tesla,Model S P100D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,315,34.561,108.86715,568.0,100.0,92,105,1.141304347826087,12.0
+39842,2018,Tesla,Model X 100D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,295,38.6651,114.062045,386.0,100.0,86,89,1.0348837209302326,12.0
+39841,2018,Tesla,Model X 75D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,238,36.23,86.2274,386.0,75.0,91,95,1.043956043956044,12.0
+39843,2018,Tesla,Model X P100D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,289,39.5413,114.274357,568.0,100.0,83,89,1.072289156626506,12.0
+39871,2018,Volkswagen,e-Golf,volkswagen | e-golf,Car,Compact Cars,Front-Wheel Drive,False,125,28.4186,35.523250000000004,100.0,,126,111,0.8809523809523809,5.3
+39785,2018,smart,fortwo electric drive convertible,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,57,33.0,18.81,60.0,,112,91,0.8125,3.0
+39784,2018,smart,fortwo electric drive coupe,smart | fortwo drive,Car,Two Seaters,Rear-Wheel Drive,False,58,31.0,17.98,60.0,,124,94,0.7580645161290323,3.0
+41393,2019,Audi,e-tron,audi | e-tron,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,204,45.5672,92.957088,313.0,,74,73,0.9864864864864865,10.0
+41054,2019,BMW,i3,bmw | i3,Car,Subcompact Cars,Rear-Wheel Drive,False,153,29.7947,45.585891000000004,125.0,,124,102,0.8225806451612904,5.0
+41055,2019,BMW,i3s,bmw | i3s,Car,Subcompact Cars,Rear-Wheel Drive,False,153,29.7947,45.585891000000004,135.0,,124,102,0.8225806451612904,5.0
+41275,2019,BYD,e6,byd | e6,SUV,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,False,187,46.6265,87.19155500000001,75.0,,73,71,0.9726027397260274,5.0
+40520,2019,Chevrolet,Bolt EV,chevrolet | bolt,Car,Small Station Wagons,Front-Wheel Drive,False,238,28.3007,67.355666,150.0,,128,110,0.859375,9.3
+41143,2019,Fiat,500e,fiat | 500e,Car,Minicompact Cars,Front-Wheel Drive,False,84,29.9767,25.180428000000003,82.0,,121,103,0.8512396694214877,4.0
+41185,2019,Honda,Clarity EV,honda | clarity,Car,Midsize Cars,Front-Wheel Drive,False,89,29.5354,26.286506,120.0,,126,103,0.8174603174603174,4.0
+40384,2019,Hyundai,Ioniq Electric,hyundai | ioniq,Car,Midsize Cars,Front-Wheel Drive,False,124,25.0,31.0,88.0,,150,122,0.8133333333333334,4.0
+40585,2019,Hyundai,Kona Electric,hyundai | kona,SUV,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,False,258,28.0,72.24,150.0,,132,108,0.8181818181818182,9.0
+40986,2019,Jaguar,I-Pace,jaguar | i-pace,SUV,Small Sport Utility Vehicle 4WD,4-Wheel Drive,True,234,44.275,103.6035,294.0,,80,72,0.9,13.0
+41060,2019,Kia,Niro Electric,kia | niro,Car,Small Station Wagons,Front-Wheel Drive,False,239,30.0071,71.716969,150.0,,123,102,0.8292682926829268,9.5
+40768,2019,Kia,Soul Electric,kia | soul,Car,Small Station Wagons,Front-Wheel Drive,False,111,31.2261,34.660970999999996,81.0,,124,93,0.75,5.0
+40812,2019,Nissan,Leaf (40 kW-hr battery pack),nissan | leaf,Car,Midsize Cars,Front-Wheel Drive,False,150,30.1816,45.2724,110.0,,124,99,0.7983870967741935,8.0
+41276,2019,Nissan,Leaf (62 kW-hr battery pack),nissan | leaf,Car,Midsize Cars,Front-Wheel Drive,False,226,31.0,70.06,160.0,,118,97,0.8220338983050848,11.0
+41277,2019,Nissan,Leaf SV/SL (62 kW-hr battery pack),nissan | leaf sv,Car,Midsize Cars,Front-Wheel Drive,False,215,32.283,69.40845,160.0,,114,94,0.8245614035087719,11.0
+41189,2019,Tesla,Model 3 Long Range,tesla | model 3,Car,Midsize Cars,Rear-Wheel Drive,False,310,25.8779,80.22149,211.0,,136,123,0.9044117647058824,10.0
+41190,2019,Tesla,Model 3 Long Range AWD,tesla | model 3,Car,Midsize Cars,All-Wheel Drive,True,310,28.9462,89.73322,335.0,,120,112,0.9333333333333333,10.0
+41191,2019,Tesla,Model 3 Long Range AWD Performance,tesla | model 3,Car,Midsize Cars,All-Wheel Drive,True,310,28.9462,89.73322,358.0,,120,112,0.9333333333333333,10.0
+41188,2019,Tesla,Model 3 Mid Range,tesla | model 3,Car,Midsize Cars,Rear-Wheel Drive,False,264,27.4857,72.562248,211.0,,128,117,0.9140625,10.0
+41415,2019,Tesla,Model 3 Standard Range,tesla | model 3,Car,Midsize Cars,Rear-Wheel Drive,False,220,25.6917,56.52174,211.0,,138,124,0.8985507246376812,8.5
+41416,2019,Tesla,Model 3 Standard Range Plus,tesla | model 3,Car,Midsize Cars,Rear-Wheel Drive,False,240,25.3881,60.93144,211.0,,140,124,0.8857142857142857,9.5
+41193,2019,Tesla,Model S 100D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,335,33.196,111.2066,386.0,100.0,101,102,1.00990099009901,12.0
+41192,2019,Tesla,Model S 75D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,259,32.6174,84.479066,386.0,75.0,102,105,1.0294117647058822,12.0
+41417,2019,Tesla,Model S Long Range,tesla | model s,Car,Large Cars,All-Wheel Drive,True,370,30.2726,112.00862000000001,398.0,,115,107,0.9304347826086956,12.0
+41194,2019,Tesla,Model S P100D,tesla | model s,Car,Large Cars,All-Wheel Drive,True,315,34.561,108.86715,568.0,100.0,92,105,1.141304347826087,12.0
+41418,2019,Tesla,Model S Performance (19in Wheels),tesla | model s,Car,Large Cars,All-Wheel Drive,True,345,32.4322,111.89109,398.0,,104,104,1.0,12.0
+41419,2019,Tesla,Model S Performance (21in Wheels),tesla | model s,Car,Large Cars,All-Wheel Drive,True,325,34.731,112.87575000000001,398.0,,98,96,0.9795918367346939,12.0
+41513,2019,Tesla,Model S Standard Range,tesla | model s,Car,Large Cars,All-Wheel Drive,True,285,30.8184,87.83244,398.0,,113,105,0.9292035398230089,9.2
+41196,2019,Tesla,Model X 100D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,295,38.6651,114.062045,386.0,100.0,86,89,1.0348837209302326,12.0
+41195,2019,Tesla,Model X 75D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,238,36.23,86.2274,386.0,75.0,91,95,1.043956043956044,12.0
+41514,2019,Tesla,Model X Long Range,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,325,35.0319,113.85367500000001,568.0,,99,93,0.9393939393939394,12.0
+41197,2019,Tesla,Model X P100D,tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,289,39.5413,114.274357,568.0,100.0,83,89,1.072289156626506,12.0
+41515,2019,Tesla,Model X Performance (22in Wheels),tesla | model x,SUV,Standard Sport Utility Vehicle 4WD,All-Wheel Drive,True,270,42.8103,115.58780999999999,568.0,,80,77,0.9625,12.0
+40769,2019,Volkswagen,e-Golf,volkswagen | e-golf,Car,Compact Cars,Front-Wheel Drive,False,125,28.4186,35.523250000000004,100.0,,126,111,0.8809523809523809,5.3
+41187,2019,smart,EQ fortwo (convertible),smart | eq fortwo,Car,Two Seaters,Rear-Wheel Drive,False,57,33.0,18.81,60.0,,112,91,0.8125,3.0
+41186,2019,smart,EQ fortwo (coupe),smart | eq fortwo,Car,Two Seaters,Rear-Wheel Drive,False,58,31.0,17.98,60.0,,124,94,0.7580645161290323,3.0
+42088,2020,BYD,e6,byd | e6,SUV,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,False,187,46.6265,87.19155500000001,75.0,,73,71,0.9726027397260274,5.0
+42089,2020,Hyundai,Kona Electric,hyundai | kona,SUV,Small Sport Utility Vehicle 2WD,Front-Wheel Drive,False,258,27.4801,70.89865800000001,150.0,,132,108,0.8181818181818182,9.0
+41413,2020,Jaguar,I-Pace,jaguar | i-pace,SUV,Small Sport Utility Vehicle 4WD,4-Wheel Drive,True,234,44.3076,103.679784,294.0,,80,72,0.9,13.0
+41235,2020,Kia,Soul Electric,kia | soul,Car,Small Station Wagons,Front-Wheel Drive,False,243,30.0,72.9,201.0,,127,101,0.7952755905511811,9.5
+42137,2020,Volkswagen,e-Golf,volkswagen | e-golf,Car,Compact Cars,Front-Wheel Drive,False,123,29.7861,36.636903000000004,100.0,,122,104,0.8524590163934426,5.3

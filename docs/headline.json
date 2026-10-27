@@ -1,0 +1,23 @@
+{
+  "n_battery_stated": 56,
+  "battery_to_energy_median": 0.8865646242141845,
+  "n_vehicles": 186,
+  "n_families": 32,
+  "n_makes": 20,
+  "year_min": 2011,
+  "year_max": 2020,
+  "first_year": 2013,
+  "last_year": 2019,
+  "median_range_first": 84.5,
+  "median_range_last": 238.5,
+  "range_change_pct": 121.10761196953393,
+  "energy_change_pct": 104.53141106374466,
+  "consumption_change_pct": -7.4968929193054095,
+  "suv_share_first": 0.14285714285714285,
+  "suv_share_last": 0.25,
+  "ev_hwy_city_median": 0.9022058823529412,
+  "gas_hwy_city_median": 1.380952380952381,
+  "ev_share_better_hwy": 0.3387096774193548,
+  "gas_share_better_hwy": 0.9991037641904004,
+  "vintage": "October 2019, via the TidyTuesday mirror; replaced by the latest file on the first refresh"
+}
