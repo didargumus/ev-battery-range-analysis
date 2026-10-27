@@ -79,21 +79,29 @@ def ols_effects_table(fit) -> pd.DataFrame:
 def make_effects(d: pd.DataFrame, reference: dict | None = None) -> pd.DataFrame:
     """Predicted consumption of the same reference vehicle for each make, with 95% CIs.
 
-    Reference vehicle: a two-wheel-drive car with the sample's median motor
-    power, in the latest model year. Makes pooled as "Other" are excluded.
+    Reference vehicle: the most common class and drivetrain in the latest
+    model year, with that year's median motor power. Makes pooled as "Other"
+    are excluded. Returns the table and the reference used.
     """
     formula = ("log_consumption ~ year + C(vehicle_class, Treatment('Car')) + awd + log_motor_kw"
                " + C(make_grouped)")
     fit = smf.ols(formula, data=d).fit(cov_type="HC3")
-    ref = reference or {"year": int(d["year"].max()), "vehicle_class": "Car", "awd": 0,
-                        "log_motor_kw": float(d["log_motor_kw"].median())}
+    if reference is None:
+        latest = d[d["year"] == d["year"].max()]
+        reference = {"year": int(latest["year"].iloc[0]),
+                     "vehicle_class": latest["vehicle_class"].mode().iloc[0],
+                     "awd": int(latest["awd"].mode().iloc[0]),
+                     "log_motor_kw": float(latest["log_motor_kw"].median())}
+    ref = reference
     makes = sorted(m for m in d["make_grouped"].unique() if m != "Other")
     grid = pd.DataFrame([{**ref, "make_grouped": m} for m in makes])
     pred = fit.get_prediction(grid).summary_frame(alpha=0.05)
     out = pd.DataFrame({"make": makes, "consumption": np.exp(pred["mean"].values),
                         "ci_low": np.exp(pred["mean_ci_lower"].values), "ci_high": np.exp(pred["mean_ci_upper"].values),
                         "n": [int((d["make_grouped"] == m).sum()) for m in makes]})
-    return out.sort_values("consumption").reset_index(drop=True)
+    out = out.sort_values("consumption").reset_index(drop=True)
+    out.attrs["reference"] = ref
+    return out
 
 
 def _models(random_state: int = 0) -> dict:
