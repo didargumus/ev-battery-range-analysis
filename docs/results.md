@@ -1,6 +1,6 @@
 # Results
 
-Data: 1,585 battery-electric vehicle configurations from 42 manufacturers, model years 2011 to 2027 (EPA file obtained 2026-10-27). Trend figures use model years with at least 10 configurations (2013 to 2027).
+Data: 1,585 battery-electric vehicle configurations from 42 manufacturers, model years 2011 to 2027 (EPA file obtained 2026-11-03). Trend figures use model years with at least 10 configurations (2013 to 2027).
 
 1. The median EPA range went from 84 miles in 2013 to 311 miles in 2027. The geometric-mean range changed by +236%, energy per full charge by +243% and consumption by +2%. All of the range gain came from bigger batteries; average consumption per mile did not fall. This hides a real improvement: holding class, drivetrain and motor power fixed, consumption falls 0.6% per model year. The gap comes from the changing mix of vehicles on offer, with more SUVs and pickups, more all-wheel drive and more power.
 2. The derived energy per charge passes a sanity check. For the 56 configurations whose battery size EPA lists, the stated capacity is a median 0.89 times the energy drawn from the wall, consistent with charging losses of about 11%.
